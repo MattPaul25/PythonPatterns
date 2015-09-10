@@ -1,6 +1,6 @@
 #singleton is the pattern when you only want one instance of object
 #a global variable in object oriented way is a singleton
-#acts a cache of information
+#tpyically has a cache of information
 
 #using the Borg design pattern******** 8)
 
