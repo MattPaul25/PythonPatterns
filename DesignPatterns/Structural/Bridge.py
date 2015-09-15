@@ -4,7 +4,7 @@
     #related to abstract factory
 
 #in the below example there are two implementations of drawing a cirlce - then the circle object can handle both implementations
-
+#add note
 
 class DrawingAPIOne(object):
     """Implemntation-specific abstraction: concrete class one""" #a pretend difference of different circle drawing apis
