@@ -1,7 +1,8 @@
 #Decorator feature 
 #changes the result of the function by adding on to it (decorates a function)
 #in the below example make_blink is our decorator that alters the result of the hello_world() function
-#from functools import wraps
+
+from functools import wraps #wraps keep decorators on the D.L.
 
 def make_blink(function):
     """defines the decorator"""
