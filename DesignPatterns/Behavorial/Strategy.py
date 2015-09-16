@@ -9,8 +9,8 @@ class Strategy:
     """the strategy pattern class"""
     def __init__(self, function = None):  
         self.name = "Default Stategy"
-        if function != None:
-            self.execute = function  
+        if function is not None:
+            self.execute = types.MethodType(function, self)  
         else:
             self.execute = self.default_execute  
 
@@ -25,12 +25,12 @@ class Strategy:
 
 
     #replacement method one
-def strategy_one():
-     print("Strategy 1 is used to execute method 1")
+def strategy_one(Cname):
+     print("{} is executing using Strategy 1".format(Cname.__class__.__name__))
 
 #replacement method two
-def strategy_two():
-     print("Strategy 2 is used to execute method 2")
+def strategy_two(Cname):
+      print("{} is executing using Strategy 2".format(Cname.__class__.__name__))
 
 #let's create our default strategy
 
