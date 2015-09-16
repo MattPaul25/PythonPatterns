@@ -44,6 +44,7 @@ class Proxy:
             time.sleep(2)
             print('Producer is busy..')
 
+######### ~~~~~~~~~~~~~~~ RUNNING THE PATTERN ~~~~~~~~~~~~~~~ #########
            
 #instantiate a proxy 
 p = Proxy()

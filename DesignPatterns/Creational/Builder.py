@@ -70,6 +70,8 @@ class E350Builder(Builder):
     def add_engine(self):
         self.car.engine = "V6"
 
+######### ~~~~~~~~~~~~~~~ RUNNING THE PATTERN ~~~~~~~~~~~~~~~ #########
+
 #actionable code - the above code executes first and creates the classes that these commands create objects from
 builder = SkyLarkBuilder()
 director = Director(builder)

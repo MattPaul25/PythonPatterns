@@ -34,6 +34,8 @@ class Adapter:
         """Simply return the rest of the attributes"""
         return getattr(self._object, attr)
 
+######### ~~~~~~~~~~~~~~~ RUNNING THE PATTERN ~~~~~~~~~~~~~~~ #########
+
 #List to store speaker objects
 objects = []
 

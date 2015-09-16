@@ -34,6 +34,7 @@ class Circle(object):
         """implementation-independent"""
         self._radius *= percent
 
+######### ~~~~~~~~~~~~~~~ RUNNING THE PATTERN ~~~~~~~~~~~~~~~ #########
 
 #Build the first circle object using API one
 circle1 = Circle(1,2,3, DrawingAPIOne())

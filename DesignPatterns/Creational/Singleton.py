@@ -34,9 +34,9 @@ class SomeClass(Borg): #just to show that now everything that inherits from Borg
     def print_vals(self): #notice i can't append to the borg dictionary - if i i intistated a new borg class it creates a new dictionary
         print(str(self._shared_state))
 
+######### ~~~~~~~~~~~~~~~ RUNNING THE PATTERN ~~~~~~~~~~~~~~~ #########
 
 y = SomeClass()
 y.print_vals()
-
 z = Singleton(SNMP = "Simple Network Management Protocal") #if i use singleton again i can append to the same version of borg
 print(z)

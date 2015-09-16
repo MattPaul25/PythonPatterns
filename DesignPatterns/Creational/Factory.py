@@ -25,6 +25,9 @@ def get_pet(pet="dog"):  #factory method that creates new pet objects from above
 
     return pets[pet]
 
+
+######### ~~~~~~~~~~~~~~~ RUNNING THE PATTERN ~~~~~~~~~~~~~~~ #########
+
 c = get_pet("cat")
 d = get_pet("dog")
 

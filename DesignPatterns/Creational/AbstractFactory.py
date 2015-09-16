@@ -51,6 +51,7 @@ class PetStore:
         print("Our pet says hello '{}'!".format(pet.speak()))
         print("The pets food is '{}'!".format(pet_food))
 
+######### ~~~~~~~~~~~~~~~ RUNNING THE PATTERN ~~~~~~~~~~~~~~~ #########
 
 #create a concrete factory
 factory = DogFactory()

@@ -51,6 +51,8 @@ class Composite(Component): #inherits from the abstract class, component
          for i in self.childeren:
              i.component_function()
 
+######### ~~~~~~~~~~~~~~~ RUNNING THE PATTERN ~~~~~~~~~~~~~~~ #########
+
 #Build a composite submenu 1
 sub1 = Composite('submenu1')
 

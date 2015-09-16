@@ -29,6 +29,7 @@ class Car:
         def __str__(self):
             return " {} | {} | {}".format(self.name, self.color, self.options)
 
+######### ~~~~~~~~~~~~~~~ RUNNING THE PATTERN ~~~~~~~~~~~~~~~ #########
 
 my_car =  Car()
 prototype = Prototype()

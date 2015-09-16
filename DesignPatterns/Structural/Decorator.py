@@ -18,6 +18,9 @@ def make_blink(function):
 
     return decorator
 
+
+######### ~~~~~~~~~~~~~~~ RUNNING THE PATTERN ~~~~~~~~~~~~~~~ #########
+
 #Apply the decorator here
 @make_blink
 def hello_world():

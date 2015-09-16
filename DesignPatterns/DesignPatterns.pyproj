@@ -23,6 +23,21 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Behavorial\ChainOfResponsibility.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Behavorial\Iterator.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Behavorial\Observer.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Behavorial\Strategy.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Behavorial\Visitor.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Creational\AbstractFactory.py" />
     <Compile Include="Creational\Builder.py" />
     <Compile Include="Creational\DesignPatterns.py" />
@@ -43,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Creational\" />
+    <Folder Include="Behavorial\" />
     <Folder Include="Structural\" />
   </ItemGroup>
   <PropertyGroup>
